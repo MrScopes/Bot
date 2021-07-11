@@ -35,7 +35,7 @@ export default class PollCommand extends SlashCommand {
                     type: 'STRING' 
                 },
             ],
-            allowedRoles: ['538528364093505536', '699006059830050967']  
+            //allowedRoles: ['538528364093505536', '699006059830050967', '709304133579964457']  
         }, client);
     }
 
