@@ -11,6 +11,10 @@ export class SlashCommand {
         let permissions: any = false;
 
         if (options.allowedRoles) {
+            Object.assign(permissions, { })
+        }
+
+        if (options.allowedRoles) {
             permissions = options.allowedRoles.map(role => {
                 return { 
                         id: role, 
