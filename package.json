@@ -1,0 +1,11 @@
+{
+  "main": "src/index.ts",
+  "dependencies": {
+    "anilist.js": "^1.2.1",
+    "discord.js": "^13.0.0-dev.d433fe8.1626004976",
+    "tiktok-scraper": "^1.4.33"
+  },
+  "scripts": {
+    "start": "ts-node ."
+  }
+}
